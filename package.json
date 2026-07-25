@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo \"No build step required\""
+    "build": "mkdir -p dist && echo '<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"0; url=/\"></head><body></body></html>' > dist/index.html"
   },
   "keywords": [
     "roblox",
